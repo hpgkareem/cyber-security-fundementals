@@ -14,10 +14,10 @@ def main():
 
     if choice == '1':
         # Step 1: Ask how to collect
-        print("\nHow would you like to handle the files?")
-        print("a) Copy files (keep originals)")
-        print("b) Move files (remove originals)")
-        mode = input("Select [a/b]: ").strip().lower()
+        print("\n📂🚀 Choose how to process your files:")
+        print("📝 a) Copy files (keep originals)")
+        print("📂✈️ b) Transfer files (delete originals)")
+        mode = input("👉 Select an option [a / b]: ").strip().lower()
 
         if mode not in {'a', 'b'}:
             print("❌ Invalid selection. Exiting.")
