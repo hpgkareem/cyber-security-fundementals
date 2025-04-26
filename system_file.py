@@ -34,8 +34,8 @@ def main():
 
     elif choice == '2':
         # Step 1: Provide inputs for decryption
-        enc_path = input("\nProvide the full path to the secured package: ").strip()
-        key_hex = input("Provide the protection code (hexadecimal): ").strip()
+        enc_path = input("\n📦🔒 Provide the full path to the secured package: ").strip()
+        key_hex = input("🧬🔐 Enter your decryption key (hexadecimal): ").strip()
 
         if not os.path.isfile(enc_path):
             print("❌ Provided file path does not exist. Exiting.")
