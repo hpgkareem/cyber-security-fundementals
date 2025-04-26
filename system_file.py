@@ -7,10 +7,10 @@ from decryptor_file import Archive_decryptor
 
 
 def main():
-    print("\n=== Welcome! Choose an option ===")
-    print("1) Secure & Transmit Documents")
-    print("2) Unlock Protected Package")
-    choice = input("Select [1/2]: ").strip()
+    print("\n=== 👾💀 Welcome to mr Malware 💀👾 ===")
+    print("1) 📁🔒 Secure & Transmit Documents 📤🛡️")
+    print("2) 🔓📦 Unlock Protected Package 🛡️🔍")
+    choice = input("🎯 Choose your mission [1/2]: ").strip()
 
     if choice == '1':
         # Step 1: Ask how to collect
