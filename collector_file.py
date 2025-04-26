@@ -29,3 +29,4 @@ def file_collector(copy_mode: bool = True):
                         print(f"⇨ Moved: {src_path} -> {dst_path}")
                 except PermissionError:
                     print(f"⛔ Access denied: {src_path}")
+                    
